@@ -1,0 +1,228 @@
+geo_cluster,latitude,longitude,priority_score,priority_tier,violation_count,trend_label,road_type,congestion_impact,nearby_pois,peak_hour,dominant_vehicle,recommended_action
+199,12.96432290524918,77.57695458886485,100.0,HIGH,2921,Emerging,residential,2921.0,"hospital, commercial",1,SCOOTER,Permanent tow zone + CCTVESCALATING
+79,12.933641746524,77.69096457916497,99.6,HIGH,2357,Declining,tertiary,1178.5,"hospital, commercial",4,SCOOTER,Permanent tow zone + CCTV
+167,12.984125423956222,77.60357404391493,99.1,HIGH,1834,Stable,residential,1834.0,school,10,PASSENGER AUTO,Permanent tow zone + CCTV
+122,12.974328171689722,77.54555954001977,98.7,HIGH,2024,Emerging,secondary,674.7,general_area,8,SCOOTER,Permanent tow zone + CCTVESCALATING
+132,13.01185271289288,77.55347454586273,98.2,HIGH,1559,Emerging,primary,389.8,"hospital, commercial",10,CAR,Permanent tow zone + CCTVESCALATING
+214,12.975695198525074,77.5761226297935,97.8,HIGH,1017,Emerging,residential,1017.0,school,9,SCOOTER,Permanent tow zone + CCTVESCALATING
+131,13.0085995521875,77.55488856265626,97.4,HIGH,1280,Emerging,primary,320.0,general_area,10,CAR,Permanent tow zone + CCTVESCALATING
+134,12.991472696681601,77.58854385506665,96.9,HIGH,919,Emerging,residential,919.0,school,4,SCOOTER,Permanent tow zone + CCTVESCALATING
+202,12.981519935723115,77.6084713829419,96.5,HIGH,809,Emerging,residential,809.0,"metro_station, commercial",10,CAR,Permanent tow zone + CCTVESCALATING
+54,12.964850603672732,77.53893921530076,96.0,HIGH,878,Emerging,residential,878.0,school,11,SCOOTER,Permanent tow zone + CCTVESCALATING
+110,12.97362147578269,77.5511037514733,95.6,HIGH,1086,Emerging,tertiary,543.0,"metro_station, commercial",11,SCOOTER,Permanent tow zone + CCTVESCALATING
+159,12.981300811278194,77.59845670483351,95.2,HIGH,931,Emerging,tertiary,465.5,school,4,SCOOTER,Permanent tow zone + CCTVESCALATING
+172,12.969962509168639,77.57574736803939,94.7,HIGH,802,Emerging,residential,802.0,"bus_stop, market",9,SCOOTER,Permanent tow zone + CCTVESCALATING
+68,13.0354740833,77.58904979030001,94.3,HIGH,1000,Emerging,tertiary,500.0,"hospital, commercial",4,SCOOTER,Permanent tow zone + CCTVESCALATING
+223,12.976255393153528,77.57736443620333,93.8,HIGH,964,Emerging,tertiary,482.0,"hospital, commercial",9,SCOOTER,Permanent tow zone + CCTVESCALATING
+194,12.979678417030568,77.60714965385735,93.4,HIGH,687,Stable,residential,687.0,"hospital, commercial",10,SCOOTER,Permanent tow zone + CCTV
+100,12.971762074079269,77.65808821142284,93.0,HIGH,738,Stable,residential,738.0,"hospital, commercial",7,SCOOTER,Permanent tow zone + CCTV
+213,12.973492047144948,77.57932974128843,92.5,HIGH,683,Stable,residential,683.0,"bus_stop, market",10,SCOOTER,Permanent tow zone + CCTV
+195,12.964526249408983,77.58378122872341,92.1,HIGH,846,Emerging,secondary,282.0,school,10,SCOOTER,Permanent tow zone + CCTVESCALATING
+222,12.977212306577481,77.57648691360089,91.6,HIGH,897,Emerging,secondary,299.0,school,9,SCOOTER,Permanent tow zone + CCTVESCALATING
+49,12.96454582962963,77.71788726481482,91.2,HIGH,864,Stable,secondary,288.0,"hospital, commercial",5,MAXI-CAB,Permanent tow zone + CCTV
+70,13.071086514067996,77.58798810656506,90.7,HIGH,853,Stable,secondary,284.3,"metro_station, commercial",11,SCOOTER,Permanent tow zone + CCTV
+40,12.953151350929986,77.54215731097783,90.3,HIGH,769,Emerging,residential,769.0,"hospital, commercial",1,SCOOTER,Permanent tow zone + CCTVESCALATING
+205,12.978119234994338,77.57379164224236,89.9,HIGH,883,Emerging,primary,220.8,school,5,CAR,Permanent tow zone + CCTVESCALATING
+184,13.007829204638472,77.57104169495226,89.4,HIGH,733,Emerging,primary,183.2,"bus_stop, market",9,CAR,Permanent tow zone + CCTVESCALATING
+65,12.957875398654926,77.70161542745602,89.0,HIGH,735,Emerging,secondary,245.0,"hospital, commercial",3,CAR,Permanent tow zone + CCTVESCALATING
+181,13.005524549699398,77.56902388957916,88.5,HIGH,499,Emerging,residential,499.0,school,8,CAR,Permanent tow zone + CCTVESCALATING
+192,12.982052382417583,77.60645153516484,88.1,HIGH,637,Emerging,primary,159.2,"hospital, commercial",10,SCOOTER,Permanent tow zone + CCTVESCALATING
+148,12.997515470926967,77.54874014339889,87.7,HIGH,712,Emerging,primary,178.0,"bus_stop, market",5,SCOOTER,Permanent tow zone + CCTVESCALATING
+52,12.996221097068313,77.66852323754428,87.2,HIGH,615,Emerging,residential,615.0,"hospital, commercial",10,CAR,Permanent tow zone + CCTVESCALATING
+2,13.184385572099712,77.67974091284755,86.8,HIGH,1043,Emerging,primary,260.8,school,1,CAR,Permanent tow zone + CCTVESCALATING
+221,12.979786144947735,77.57493037055748,86.3,HIGH,574,Emerging,residential,574.0,"metro_station, commercial",9,CAR,Permanent tow zone + CCTVESCALATING
+84,12.913591630349346,77.60621496812226,85.9,HIGH,458,Emerging,residential,458.0,"metro_station, commercial",5,SCOOTER,Permanent tow zone + CCTVESCALATING
+212,12.97287908632353,77.5788949817647,85.5,HIGH,680,Stable,primary,170.0,school,9,SCOOTER,Permanent tow zone + CCTV
+211,12.975450124493927,77.57477073663968,85.0,HIGH,494,Emerging,residential,494.0,"hospital, commercial",8,CAR,Permanent tow zone + CCTVESCALATING
+183,12.99496837032419,77.57146972269327,84.6,MEDIUM,401,Emerging,residential,401.0,"bus_stop, market",6,CAR,Permanent tow zone + CCTVESCALATING
+163,12.973498922893773,77.61502177820513,84.1,MEDIUM,546,Stable,tertiary,273.0,"metro_station, commercial",4,CAR,Permanent tow zone + CCTV
+175,12.999605638391273,77.5496541260476,83.7,MEDIUM,578,Emerging,secondary,192.7,"bus_stop, market",8,SCOOTER,Permanent tow zone + CCTVESCALATING
+149,12.971255011472277,77.59774320152962,83.3,MEDIUM,523,Emerging,tertiary,261.5,"hospital, commercial",7,CAR,Permanent tow zone + CCTVESCALATING
+87,12.939728027723472,77.69553437606605,82.8,MEDIUM,611,Stable,primary,152.8,"metro_station, commercial",8,CAR,Permanent tow zone + CCTV
+207,12.981057854044751,77.6101782846816,82.4,MEDIUM,581,Emerging,tertiary,290.5,school,10,PASSENGER AUTO,Permanent tow zone + CCTVESCALATING
+76,12.930496069625637,77.68543433367617,81.9,MEDIUM,482,Stable,tertiary,241.0,"metro_station, commercial",8,CAR,Permanent tow zone + CCTV
+154,12.96201564327731,77.59887819684873,81.5,MEDIUM,476,Emerging,primary,119.0,school,4,SCOOTER,Permanent tow zone + CCTVESCALATING
+142,12.928431900896861,77.58106500112108,81.1,MEDIUM,446,Emerging,tertiary,223.0,"hospital, commercial",8,SCOOTER,Permanent tow zone + CCTVESCALATING
+217,12.979031781660792,77.57868625460594,80.6,MEDIUM,943,Emerging,primary,235.8,"hospital, commercial",1,CAR,Permanent tow zone + CCTVESCALATING
+198,12.98096626013072,77.60768243943355,80.2,MEDIUM,459,Emerging,primary,114.8,general_area,11,SCOOTER,Permanent tow zone + CCTVESCALATING
+177,12.967034892248062,77.57824643507752,79.7,MEDIUM,516,Stable,residential,516.0,"metro_station, commercial",10,SCOOTER,Permanent tow zone + CCTV
+171,12.967959529549903,77.57464740763209,79.3,MEDIUM,511,Stable,primary,127.8,"metro_station, commercial",10,PASSENGER AUTO,Permanent tow zone + CCTV
+144,12.998399781585677,77.55299764526855,78.9,MEDIUM,391,Emerging,tertiary,195.5,"hospital, commercial",5,SCOOTER,Permanent tow zone + CCTVESCALATING
+186,12.99994296927711,77.57133768915662,78.4,MEDIUM,498,Stable,secondary,166.0,general_area,10,CAR,Permanent tow zone + CCTV
+27,13.000303719419644,77.67696463461755,78.0,MEDIUM,751,Emerging,secondary,250.3,"bus_stop, market",6,PASSENGER AUTO,Permanent tow zone + CCTVESCALATING
+215,12.976476014705883,77.57837833188854,77.5,MEDIUM,646,Stable,primary,161.5,school,8,CAR,Permanent tow zone + CCTV
+190,12.983440595104895,77.6092467583916,77.1,MEDIUM,286,Stable,residential,286.0,"bus_stop, market",10,SCOOTER,Permanent tow zone + CCTV
+0,13.190507149109312,77.64577587793522,76.7,MEDIUM,494,Emerging,residential,494.0,"hospital, commercial",7,CAR,Permanent tow zone + CCTVESCALATING
+137,12.985610293540082,77.5542275239143,76.2,MEDIUM,438,Emerging,primary,109.5,"bus_stop, market",9,CAR,Permanent tow zone + CCTVESCALATING
+112,12.989160296929825,77.5991339997807,75.8,MEDIUM,456,Emerging,tertiary,228.0,general_area,4,CAR,Permanent tow zone + CCTVESCALATING
+114,12.975725963590053,77.55891156884181,75.3,MEDIUM,321,Stable,residential,321.0,"metro_station, commercial",4,SCOOTER,Permanent tow zone + CCTV
+146,12.94528583703141,77.57116537181166,74.9,MEDIUM,289,Stable,residential,289.0,"hospital, commercial",10,SCOOTER,Permanent tow zone + CCTV
+28,13.005704932081878,77.68580715521507,74.4,MEDIUM,591,Emerging,tertiary,295.5,"hospital, commercial",10,CAR,Permanent tow zone + CCTVESCALATING
+124,13.007810243979057,77.5485249578534,74.0,MEDIUM,382,Stable,primary,95.5,"metro_station, commercial",10,SCOOTER,Permanent tow zone + CCTV
+161,12.980174719312169,77.6140055100529,73.6,MEDIUM,378,Stable,primary,94.5,"metro_station, commercial",10,CAR,Permanent tow zone + CCTV
+46,12.968745601435362,77.53678463945546,73.1,MEDIUM,316,Stable,tertiary,158.0,"bus_stop, market",11,SCOOTER,Permanent tow zone + CCTV
+72,13.027842065079366,77.57474299433106,72.7,MEDIUM,441,Stable,primary,110.2,general_area,11,CAR,Permanent tow zone + CCTV
+106,12.970521845910751,77.64661391800391,72.2,MEDIUM,448,Emerging,secondary,149.3,school,7,CAR,Permanent tow zone + CCTVESCALATING
+138,12.996332651452281,77.5631030560166,71.8,MEDIUM,241,Stable,residential,241.0,"bus_stop, market",10,SCOOTER,Permanent tow zone + CCTV
+189,12.959188065534805,77.57690617351443,71.4,MEDIUM,589,Stable,secondary,196.3,school,4,SCOOTER,Permanent tow zone + CCTV
+25,12.995430231073748,77.69587003662494,70.9,MEDIUM,360,Emerging,secondary,120.0,school,11,PASSENGER AUTO,Permanent tow zone + CCTVESCALATING
+219,12.976721453773585,77.57985550251573,70.5,MEDIUM,318,Stable,residential,318.0,"metro_station, commercial",8,CAR,Permanent tow zone + CCTV
+89,12.935642625323474,77.61572832458411,70.0,MEDIUM,541,Emerging,secondary,180.3,school,9,SCOOTER,Permanent tow zone + CCTVESCALATING
+125,12.916223233727475,77.57406066268493,69.6,MEDIUM,379,Emerging,tertiary,189.5,"hospital, commercial",3,SCOOTER,Targeted patrol @ 03:00ESCALATING
+71,13.02214373064935,77.59273489220779,69.2,MEDIUM,385,Emerging,secondary,128.3,general_area,4,SCOOTER,Targeted patrol @ 04:00ESCALATING
+17,12.84192140232975,77.64595546756273,68.7,MEDIUM,558,Emerging,tertiary,279.0,general_area,12,SCOOTER,Targeted patrol @ 12:00ESCALATING
+135,12.993833023422582,77.58913078106254,68.3,MEDIUM,487,Emerging,primary,121.8,school,3,SCOOTER,Targeted patrol @ 03:00ESCALATING
+176,13.000397364383561,77.55023926621004,67.8,MEDIUM,219,Stable,residential,219.0,school,8,SCOOTER,Morning rush patrol (7–10 AM)
+31,13.00825424132918,77.69507397372793,67.4,MEDIUM,963,Emerging,primary,240.8,"hospital, commercial",0,SCOOTER,Targeted patrol @ 00:00ESCALATING
+185,13.005973337786259,77.5712098629771,67.0,MEDIUM,262,Emerging,primary,65.5,"hospital, commercial",5,CAR,Targeted patrol @ 05:00ESCALATING
+162,12.973200191020368,77.6215995618026,66.5,MEDIUM,402,Stable,tertiary,201.0,general_area,4,CAR,Targeted patrol @ 04:00
+81,12.943696252975574,77.69774621835276,66.1,MEDIUM,245,Stable,tertiary,122.5,"metro_station, commercial",6,CAR,Targeted patrol @ 06:00
+123,12.996960144690265,77.58394933628318,65.6,MEDIUM,226,Stable,residential,226.0,school,10,CAR,Morning rush patrol (7–10 AM)
+78,12.932604241802446,77.68834827066993,65.2,MEDIUM,213,Stable,residential,213.0,"hospital, commercial",7,PASSENGER AUTO,Morning rush patrol (7–10 AM)
+129,12.998634761587303,77.54145367555556,64.8,MEDIUM,315,Stable,tertiary,157.5,general_area,9,CAR,Morning rush patrol (7–10 AM)
+170,12.982209747887323,77.6123734278169,64.3,MEDIUM,284,Stable,tertiary,142.0,"metro_station, commercial",10,CAR,Morning rush patrol (7–10 AM)
+218,12.977457652155174,77.58030852413793,63.9,MEDIUM,232,Stable,tertiary,116.0,"metro_station, commercial",9,CAR,Morning rush patrol (7–10 AM)
+19,12.987132141125542,77.7340380051948,63.4,MEDIUM,231,Stable,residential,231.0,"hospital, commercial",4,MOTOR CYCLE,Targeted patrol @ 04:00
+182,12.97709587764706,77.57077464411765,63.0,MEDIUM,510,Stable,secondary,170.0,"metro_station, commercial",7,PASSENGER AUTO,Morning rush patrol (7–10 AM)
+145,13.000059181716418,77.61112908544776,62.6,MEDIUM,268,Stable,residential,268.0,"hospital, commercial",4,SCOOTER,Targeted patrol @ 04:00
+41,12.971978791815197,77.53755935010952,62.1,MEDIUM,264,Emerging,residential,264.0,"metro_station, commercial",10,SCOOTER,Morning rush patrol (7–10 AM)ESCALATING
+166,12.980639490601503,77.60311486804513,61.7,MEDIUM,266,Stable,tertiary,133.0,"hospital, commercial",11,SCOOTER,Targeted patrol @ 11:00
+188,12.961187770886076,77.57770782974684,61.2,MEDIUM,158,Stable,residential,158.0,"metro_station, commercial",7,SCOOTER,Morning rush patrol (7–10 AM)
+197,12.975586122058823,77.58164564080883,60.8,MEDIUM,272,Stable,tertiary,136.0,"metro_station, commercial",4,CAR,Targeted patrol @ 04:00
+141,12.927541823904383,77.58596726972111,60.4,MEDIUM,251,Stable,primary,62.8,general_area,8,CAR,Morning rush patrol (7–10 AM)
+210,12.973211940211641,77.57772935132274,59.9,MEDIUM,189,Stable,residential,189.0,school,5,SCOOTER,Targeted patrol @ 05:00
+204,12.982988455339806,77.61074413592233,59.5,MEDIUM,309,Stable,tertiary,154.5,"hospital, commercial",10,SCOOTER,Morning rush patrol (7–10 AM)
+37,12.96079364576269,77.52854451866224,59.0,MEDIUM,218,Stable,primary,54.5,general_area,11,SCOOTER,Targeted patrol @ 11:00
+104,12.959737565508796,77.64901939108238,58.6,MEDIUM,228,Stable,secondary,76.0,"metro_station, commercial",5,PASSENGER AUTO,Targeted patrol @ 05:00
+93,13.002321784615386,77.59546614903846,58.1,MEDIUM,208,Emerging,secondary,69.3,school,3,CAR,Targeted patrol @ 03:00ESCALATING
+6,13.099316125000001,77.58217417924527,57.7,MEDIUM,212,Stable,primary,53.0,school,11,SCOOTER,Targeted patrol @ 11:00
+147,12.943224465273312,77.57109394147909,57.3,MEDIUM,311,Stable,residential,311.0,school,12,SCOOTER,Targeted patrol @ 12:00
+50,12.99172634159292,77.6523039902655,56.8,MEDIUM,113,Stable,residential,113.0,"hospital, commercial",7,SCOOTER,Morning rush patrol (7–10 AM)
+128,12.941372336969696,77.5669663490909,56.4,MEDIUM,165,Stable,tertiary,82.5,general_area,3,CAR,Targeted patrol @ 03:00
+67,13.052068653184154,77.5930574211628,55.9,MEDIUM,387,Emerging,primary,96.8,"bus_stop, market",11,CAR,Targeted patrol @ 11:00ESCALATING
+103,12.9593256274406,77.6455997194841,55.5,MEDIUM,246,Stable,tertiary,123.0,"bus_stop, market",6,MAXI-CAB,Targeted patrol @ 06:00
+168,13.001457090151515,77.55036609848484,55.1,MEDIUM,132,Stable,residential,132.0,"metro_station, commercial",7,CAR,Morning rush patrol (7–10 AM)
+160,13.003317683233535,77.55008376167665,54.6,LOW,167,Stable,residential,167.0,school,7,CAR,Morning rush patrol (7–10 AM)
+34,12.978903850776964,77.69527892498974,54.2,LOW,284,Stable,secondary,94.7,school,5,CAR,Targeted patrol @ 05:00
+94,12.911654293174061,77.63807462423208,53.7,LOW,293,Emerging,secondary,97.7,"metro_station, commercial",12,SCOOTER,Targeted patrol @ 12:00ESCALATING
+226,12.977247672651933,77.57565288922652,53.3,LOW,362,Stable,primary,90.5,"bus_stop, market",10,PASSENGER AUTO,Morning rush patrol (7–10 AM)
+115,12.984601617692308,77.56015278923077,52.9,LOW,130,Stable,tertiary,65.0,general_area,10,CAR,Morning rush patrol (7–10 AM)
+191,12.982719977777776,77.60712556837608,52.4,LOW,117,Stable,residential,117.0,general_area,10,SCOOTER,Morning rush patrol (7–10 AM)
+99,12.978644716549296,77.64018275422535,52.0,LOW,284,Stable,primary,71.0,"metro_station, commercial",9,SCOOTER,Morning rush patrol (7–10 AM)
+102,12.988333489231898,77.53760626571157,51.5,LOW,282,Stable,secondary,94.0,"hospital, commercial",10,CAR,Morning rush patrol (7–10 AM)
+201,12.981181584090908,77.60954144469697,51.1,LOW,132,Stable,tertiary,66.0,school,10,SCOOTER,Morning rush patrol (7–10 AM)
+48,12.959112109937887,77.71600191863354,50.7,LOW,161,Stable,secondary,53.7,"bus_stop, market",6,CAR,Targeted patrol @ 06:00
+12,13.035058388113086,77.62446845197309,50.2,LOW,223,Stable,residential,223.0,general_area,4,CAR,Targeted patrol @ 04:00
+153,12.96209454822695,77.59606434468085,49.8,LOW,141,Stable,residential,141.0,"metro_station, commercial",3,SCOOTER,Targeted patrol @ 03:00
+120,12.912517746938775,77.58601963673469,49.3,LOW,147,Stable,tertiary,73.5,"bus_stop, market",11,CAR,Targeted patrol @ 11:00
+101,12.961033025179855,77.63710609928057,48.9,LOW,139,Stable,secondary,46.3,"metro_station, commercial",4,CAR,Targeted patrol @ 04:00
+113,12.975713731035729,77.56085681979508,48.5,LOW,244,Stable,secondary,81.3,school,7,SCOOTER,Morning rush patrol (7–10 AM)
+187,12.999037866666667,77.56944051777778,48.0,LOW,135,Stable,residential,135.0,"metro_station, commercial",11,CAR,Targeted patrol @ 11:00
+105,12.964375194382024,77.55426951376404,47.6,LOW,356,Stable,secondary,118.7,general_area,10,SCOOTER,Morning rush patrol (7–10 AM)
+116,12.978408501686323,77.54334565190625,47.1,LOW,133,Stable,primary,33.2,"bus_stop, market",10,SCOOTER,Morning rush patrol (7–10 AM)
+126,12.988944511118165,77.59237783980046,46.7,LOW,164,Stable,secondary,54.7,general_area,8,CAR,Morning rush patrol (7–10 AM)
+1,13.18704917992565,77.68039476394053,46.3,LOW,269,Stable,tertiary,134.5,general_area,4,CAR,Targeted patrol @ 04:00
+140,12.993257696191622,77.55363314524479,45.8,LOW,480,Stable,tertiary,240.0,"metro_station, commercial",1,CAR,Targeted patrol @ 01:00
+75,12.927459885153384,77.67966943371664,45.4,LOW,412,Stable,secondary,137.3,"bus_stop, market",2,MAXI-CAB,Targeted patrol @ 02:00
+109,13.008768396491227,77.5430509128655,44.9,LOW,171,Stable,residential,171.0,school,6,SCOOTER,Targeted patrol @ 06:00
+155,12.978491023214286,77.62873527232144,44.5,LOW,112,Stable,secondary,37.3,"metro_station, commercial",5,SCOOTER,Targeted patrol @ 05:00
+80,12.950866767363651,77.69983339415016,44.1,LOW,256,Stable,residential,256.0,general_area,3,CAR,Targeted patrol @ 03:00
+150,12.954126599242423,77.59196681969696,43.6,LOW,132,Stable,residential,132.0,"metro_station, commercial",9,CAR,Morning rush patrol (7–10 AM)
+26,12.989522702849296,77.50314700339806,43.2,LOW,206,Stable,secondary,68.7,school,10,SCOOTER,Morning rush patrol (7–10 AM)
+165,12.958053408333333,77.58638443846154,42.7,LOW,156,Stable,primary,39.0,"bus_stop, market",9,CAR,Morning rush patrol (7–10 AM)
+33,12.889525990067312,77.56349670468596,42.3,LOW,223,Stable,secondary,74.3,"metro_station, commercial",11,SCOOTER,Targeted patrol @ 11:00
+4,13.006446725635897,77.7579575297561,41.9,LOW,123,Stable,residential,123.0,general_area,5,CAR,Targeted patrol @ 05:00
+173,12.98709962890625,77.58027429921874,41.4,LOW,128,Stable,tertiary,64.0,"hospital, commercial",7,CAR,Morning rush patrol (7–10 AM)
+225,12.97784486018237,77.57544011854104,41.0,LOW,329,Stable,secondary,109.7,"metro_station, commercial",10,SCOOTER,Morning rush patrol (7–10 AM)
+38,12.960956888659794,77.51172379725087,40.5,LOW,291,Stable,primary,72.8,"metro_station, commercial",12,CAR,Targeted patrol @ 12:00
+58,12.921101220439942,77.66592994634374,40.1,LOW,142,Stable,residential,142.0,"hospital, commercial",4,CAR,Targeted patrol @ 04:00
+209,12.973931345175439,77.5783921232456,39.6,LOW,228,Stable,primary,57.0,"hospital, commercial",11,CAR,Targeted patrol @ 11:00
+174,12.999185190076336,77.5488302961832,39.2,LOW,131,Stable,tertiary,65.5,"hospital, commercial",8,SCOOTER,Morning rush patrol (7–10 AM)
+44,12.9359025336,77.51791613280001,38.8,LOW,125,Stable,tertiary,62.5,"bus_stop, market",11,SCOOTER,Targeted patrol @ 11:00
+193,12.979853919827587,77.6096432974138,38.3,LOW,116,Stable,residential,116.0,"bus_stop, market",8,CAR,Morning rush patrol (7–10 AM)
+59,13.018144226973684,77.5315915881579,37.9,LOW,304,Stable,primary,76.0,"bus_stop, market",3,CAR,Targeted patrol @ 03:00
+77,12.936325258665685,77.69239930566002,37.4,LOW,270,Stable,tertiary,135.0,"hospital, commercial",4,CAR,Targeted patrol @ 04:00
+73,13.023620456363636,77.58491421878787,37.0,LOW,165,Stable,secondary,55.0,"bus_stop, market",10,CAR,Morning rush patrol (7–10 AM)
+57,12.912825858181883,77.67963741972959,36.6,LOW,210,Stable,primary,52.5,"bus_stop, market",9,CAR,Morning rush patrol (7–10 AM)
+47,12.966197471544715,77.53507766666667,36.1,LOW,123,Stable,residential,123.0,general_area,11,SCOOTER,Targeted patrol @ 11:00
+60,13.007134107253885,77.52682690051813,35.7,LOW,193,Stable,residential,193.0,"bus_stop, market",10,CAR,Morning rush patrol (7–10 AM)
+88,12.938707481577955,77.69707097597478,35.2,LOW,137,Stable,tertiary,68.5,"hospital, commercial",8,SCOOTER,Morning rush patrol (7–10 AM)
+139,12.989884936065573,77.55336190081967,34.8,LOW,122,Stable,primary,30.5,general_area,5,SCOOTER,Targeted patrol @ 05:00
+220,12.97868703181818,77.57510302727273,34.4,LOW,264,Stable,residential,264.0,"bus_stop, market",9,CAR,Morning rush patrol (7–10 AM)
+179,12.986858618556703,77.57444833505156,33.9,LOW,194,Stable,residential,194.0,"metro_station, commercial",3,CAR,Targeted patrol @ 03:00
+86,12.890480457744562,77.63886759406596,33.5,LOW,624,Emerging,secondary,208.0,"metro_station, commercial",2,CAR,Targeted patrol @ 02:00ESCALATING
+118,12.980750060425015,77.55828223911615,33.0,LOW,192,Stable,tertiary,96.0,"metro_station, commercial",4,SCOOTER,Targeted patrol @ 04:00
+178,12.98382870759879,77.57777635714397,32.6,LOW,207,Stable,primary,51.8,general_area,8,CAR,Morning rush patrol (7–10 AM)
+14,12.873830294593477,77.5410538140544,32.2,LOW,125,Stable,tertiary,62.5,"hospital, commercial",10,CAR,Morning rush patrol (7–10 AM)
+107,12.969739950253807,77.64111373451776,31.7,LOW,197,Stable,tertiary,98.5,"hospital, commercial",7,CAR,Morning rush patrol (7–10 AM)
+69,13.071577197058824,77.59267588431372,31.3,LOW,102,Stable,secondary,34.0,"hospital, commercial",4,CAR,Targeted patrol @ 04:00
+92,12.906452277354708,77.62997479504484,30.8,LOW,357,Stable,secondary,119.0,school,13,CAR,Targeted patrol @ 13:00
+130,12.99262525442177,77.55808299795919,30.4,LOW,147,Stable,tertiary,73.5,school,3,SCOOTER,Targeted patrol @ 03:00
+56,12.899979849368595,77.67551698260546,30.0,LOW,302,Stable,tertiary,151.0,"hospital, commercial",10,CAR,Morning rush patrol (7–10 AM)
+180,12.989878827891156,77.57298905714286,29.5,LOW,147,Stable,primary,36.8,"metro_station, commercial",8,SCOOTER,Morning rush patrol (7–10 AM)
+51,12.993512517131474,77.66216743306774,29.1,LOW,251,Stable,secondary,83.7,"hospital, commercial",8,SCOOTER,Morning rush patrol (7–10 AM)
+22,13.046572770782609,77.50358223008696,28.6,LOW,230,Stable,secondary,76.7,"hospital, commercial",4,SCOOTER,Targeted patrol @ 04:00
+64,13.033869182889482,77.55754635025284,28.2,LOW,148,Stable,residential,148.0,"bus_stop, market",3,CAR,Targeted patrol @ 03:00
+224,12.977104280392156,77.57728937892158,27.8,LOW,204,Stable,secondary,68.0,"metro_station, commercial",8,CAR,Morning rush patrol (7–10 AM)
+42,13.049543540740741,77.55143512777778,27.3,LOW,108,Stable,secondary,36.0,"hospital, commercial",11,CAR,Targeted patrol @ 11:00
+151,12.99568898101983,77.6137232082153,26.9,LOW,353,Stable,residential,353.0,"metro_station, commercial",12,SCOOTER,Targeted patrol @ 12:00
+3,13.046921136585366,77.7519519414634,26.4,LOW,123,Stable,residential,123.0,general_area,10,CAR,Morning rush patrol (7–10 AM)
+82,12.929243771493214,77.6326081122172,26.0,LOW,221,Stable,primary,55.2,general_area,2,CAR,Targeted patrol @ 02:00
+39,12.957525152191234,77.51889007330678,25.6,LOW,251,Stable,residential,251.0,"bus_stop, market",11,CAR,Targeted patrol @ 11:00
+206,12.981346089599999,77.61022527680001,25.1,LOW,125,Stable,tertiary,62.5,general_area,9,PASSENGER AUTO,Morning rush patrol (7–10 AM)
+119,13.00424353125,77.55346094196429,24.7,LOW,112,Stable,primary,28.0,"bus_stop, market",6,CAR,Targeted patrol @ 06:00
+43,12.97196708641764,77.71174886998335,24.2,LOW,268,Stable,tertiary,134.0,"bus_stop, market",3,CAR,Targeted patrol @ 03:00
+63,13.02752823032258,77.54270838258064,23.8,LOW,155,Stable,primary,38.8,"bus_stop, market",10,MOTOR CYCLE,Morning rush patrol (7–10 AM)
+208,12.978938735585587,77.58084423423423,23.3,LOW,222,Stable,secondary,74.0,"hospital, commercial",8,CAR,Morning rush patrol (7–10 AM)
+117,12.980055925108033,77.55484038222222,22.9,LOW,117,Stable,secondary,39.0,school,11,CAR,Targeted patrol @ 11:00
+143,12.931171489814815,77.58381166203705,22.5,LOW,108,Stable,tertiary,54.0,"hospital, commercial",11,CAR,Targeted patrol @ 11:00
+10,13.121124542944784,77.61336411104294,22.0,LOW,163,Stable,residential,163.0,"hospital, commercial",3,MAXI-CAB,Targeted patrol @ 03:00
+111,13.018613078768096,77.5581341769992,21.6,LOW,165,Stable,residential,165.0,school,4,CAR,Targeted patrol @ 04:00
+157,12.970113487031103,77.60669883697308,21.1,LOW,365,Stable,secondary,121.7,general_area,1,SCOOTER,Targeted patrol @ 01:00
+62,13.030074960098323,77.53747232713671,20.7,LOW,369,Stable,primary,92.2,general_area,1,CAR,Targeted patrol @ 01:00
+55,12.965577244516128,77.53690465741936,20.3,LOW,155,Stable,tertiary,77.5,"metro_station, commercial",10,CAR,Morning rush patrol (7–10 AM)
+18,12.853426908661419,77.66141956220471,19.8,LOW,127,Stable,tertiary,63.5,"metro_station, commercial",12,SCOOTER,Targeted patrol @ 12:00
+169,12.96798949390244,77.58844013292683,19.4,LOW,164,Stable,secondary,54.7,"hospital, commercial",4,SCOOTER,Targeted patrol @ 04:00
+35,12.97274582,77.50876552869565,18.9,LOW,115,Stable,primary,28.8,general_area,3,CAR,Targeted patrol @ 03:00
+8,13.093880261904763,77.59430343619047,18.5,LOW,105,Stable,residential,105.0,school,8,SCOOTER,Morning rush patrol (7–10 AM)
+53,13.047794197131148,77.57547018770492,18.1,LOW,244,Stable,tertiary,122.0,general_area,3,CAR,Targeted patrol @ 03:00
+23,13.040084008377898,77.51804796452763,17.6,LOW,187,Stable,tertiary,93.5,"metro_station, commercial",2,CAR,Targeted patrol @ 02:00
+74,12.925899245846548,77.67633929329433,17.2,LOW,212,Stable,primary,53.0,general_area,4,CAR,Targeted patrol @ 04:00
+61,12.95884079047619,77.66746333428571,16.7,LOW,105,Stable,residential,105.0,"hospital, commercial",3,CAR,Targeted patrol @ 03:00
+156,12.97422045149412,77.60768525221089,16.3,LOW,162,Stable,residential,162.0,"hospital, commercial",11,SCOOTER,Targeted patrol @ 11:00
+11,12.907493031323844,77.54617926745948,15.9,LOW,170,Stable,residential,170.0,school,12,CAR,Targeted patrol @ 12:00
+136,12.988485556370312,77.55010975794585,15.4,LOW,224,Stable,primary,56.0,"hospital, commercial",2,CAR,Targeted patrol @ 02:00
+121,12.97685481617647,77.545486925,15.0,LOW,136,Stable,primary,34.0,"hospital, commercial",11,MOTOR CYCLE,Targeted patrol @ 11:00
+127,12.938021342319749,77.5847450369906,14.5,LOW,319,Stable,primary,79.8,"hospital, commercial",12,SCOOTER,Targeted patrol @ 12:00
+200,12.965143552093025,77.57378790651164,14.1,LOW,215,Stable,residential,215.0,"bus_stop, market",1,PASSENGER AUTO,Targeted patrol @ 01:00
+133,12.948209026865673,77.57937205149254,13.7,LOW,134,Stable,primary,33.5,general_area,2,SCOOTER,Targeted patrol @ 02:00
+20,12.986665226594384,77.52029258455403,13.2,LOW,137,Stable,secondary,45.7,"bus_stop, market",14,SCOOTER,Targeted patrol @ 14:00
+203,12.982293236912751,77.61055482147651,12.8,LOW,149,Stable,primary,37.2,"metro_station, commercial",12,PASSENGER AUTO,Targeted patrol @ 12:00
+83,12.924914678645612,77.61883479520743,12.3,LOW,224,Stable,tertiary,112.0,general_area,1,CAR,Targeted patrol @ 01:00
+164,12.95530861118421,77.58567333026315,11.9,LOW,152,Stable,secondary,50.7,school,2,CAR,Targeted patrol @ 02:00
+29,12.92661555677966,77.5508424220339,11.5,LOW,118,Stable,tertiary,59.0,"hospital, commercial",8,SCOOTER,Morning rush patrol (7–10 AM)
+5,13.074987940714285,77.63364670714286,11.0,LOW,140,Stable,tertiary,70.0,"bus_stop, market",13,CAR,Targeted patrol @ 13:00
+21,13.050028839705883,77.52517940367647,10.6,LOW,136,Declining,primary,34.0,general_area,10,SCOOTER,Morning rush patrol (7–10 AM)
+85,12.87600089296875,77.647855634375,10.1,LOW,128,Stable,residential,128.0,"metro_station, commercial",3,CAR,Targeted patrol @ 03:00
+45,12.940606062711865,77.52462511525424,9.7,LOW,118,Stable,tertiary,59.0,"metro_station, commercial",10,SCOOTER,Morning rush patrol (7–10 AM)
+24,12.959551939200287,77.7326548027935,9.3,LOW,109,Stable,tertiary,54.5,"metro_station, commercial",8,CAR,Morning rush patrol (7–10 AM)
+32,12.876651731129815,77.59544716519534,8.8,LOW,141,Stable,tertiary,70.5,"hospital, commercial",11,SCOOTER,Targeted patrol @ 11:00
+196,12.981774650833334,77.6096098525,8.4,LOW,120,Stable,secondary,40.0,school,11,SCOOTER,Targeted patrol @ 11:00
+158,12.978496022916666,77.59143413385416,7.9,LOW,192,Stable,primary,48.0,"metro_station, commercial",2,SCOOTER,Targeted patrol @ 02:00
+97,12.912426367731866,77.63356788145347,7.5,LOW,145,Stable,tertiary,72.5,"bus_stop, market",11,SCOOTER,Targeted patrol @ 11:00
+108,12.96519107471537,77.64152657228674,7.0,LOW,199,Stable,secondary,66.3,school,13,CAR,Targeted patrol @ 13:00
+13,13.022362479372328,77.63890791953285,6.6,LOW,140,Stable,residential,140.0,"bus_stop, market",13,SCOOTER,Targeted patrol @ 13:00
+152,12.994834478282828,77.61040996515152,6.2,LOW,198,Stable,primary,49.5,"metro_station, commercial",3,CAR,Targeted patrol @ 03:00
+16,12.840095009968408,77.67704484320632,5.7,LOW,145,Stable,tertiary,72.5,"hospital, commercial",4,SCOOTER,Targeted patrol @ 04:00
+30,13.010342833884296,77.69751000165289,5.3,LOW,121,Stable,primary,30.2,school,11,CAR,Targeted patrol @ 11:00
+216,12.977772553869968,77.57945901455108,4.8,LOW,323,Stable,tertiary,161.5,"hospital, commercial",1,CAR,Targeted patrol @ 01:00
+36,12.935209582812499,77.536194196875,4.4,LOW,192,Stable,tertiary,96.0,school,2,SCOOTER,Targeted patrol @ 02:00
+91,12.912267953936862,77.62578419046561,4.0,LOW,103,Stable,tertiary,51.5,"metro_station, commercial",2,CAR,Targeted patrol @ 02:00
+96,12.930903673404254,77.60658524042553,3.5,LOW,188,Stable,secondary,62.7,general_area,2,SCOOTER,Targeted patrol @ 02:00
+15,12.819575272277227,77.68822068811882,3.1,LOW,101,Stable,primary,25.2,"bus_stop, market",2,SCOOTER,Targeted patrol @ 02:00
+7,13.097250918208955,77.5993294922388,2.6,LOW,335,Emerging,primary,83.8,school,2,SCOOTER,Targeted patrol @ 02:00ESCALATING
+98,12.912521478847445,77.63532038531103,2.2,LOW,246,Stable,secondary,82.0,"bus_stop, market",14,MOTOR CYCLE,Targeted patrol @ 14:00
+95,12.930496606930692,77.6096693019802,1.8,LOW,101,Stable,secondary,33.7,school,2,CAR,Targeted patrol @ 02:00
+66,13.063062574793388,77.58938505909092,1.3,LOW,242,Stable,tertiary,121.0,"bus_stop, market",13,CAR,Targeted patrol @ 13:00
+9,13.121561576646707,77.63091293712576,0.9,LOW,167,Stable,secondary,55.7,general_area,13,MAXI-CAB,Targeted patrol @ 13:00
+90,12.93591481904762,77.60732818190476,0.4,LOW,105,Stable,tertiary,52.5,school,2,CAR,Targeted patrol @ 02:00
