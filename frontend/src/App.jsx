@@ -989,38 +989,13 @@ function RetrainPage({ onRetrainSuccess }) {
         <div>
           <p style={{ ...styles.headingM, color: ACCENT, marginBottom: 8 }}>How Model Retraining Works</p>
           <p style={{ ...styles.bodyM, margin: 0, maxWidth: 760 }}>
-            Upload a new violations CSV. The backend preprocesses the data, reruns clustering, recalculates priority scores,
-            and updates the hotspot locations. If your CSV includes a <b>location_name</b> column, the dashboard will display it.
-            Otherwise it will show the exact latitude/longitude with Google Maps directions.
+            Retraining analyzes new weekly data to identify fresh congestion hotspots and update priority scores. Processing may take some time
           </p>
         </div>
       </div>
 
-      <div style={styles.card}>
-        <SectionHeader kicker="Schema" title="Expected CSV Format" subtitle="The new file must contain these columns. location_name is optional but recommended." />
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 10, marginTop: 12 }}>
-          {[
-            "geo_cluster",
-            "latitude",
-            "longitude",
-            "location_name (optional)",
-            "priority_score",
-            "priority_tier",
-            "violation_count",
-            "trend_label",
-            "road_type",
-            "congestion_impact",
-            "nearby_pois",
-            "peak_hour",
-            "dominant_vehicle",
-            "recommended_action",
-          ].map((col) => (
-            <span key={col} style={{ background: "#faf9f6", color: PRIMARY, fontSize: 13, padding: "6px 14px", borderRadius: 6, fontFamily: "'JetBrains Mono',monospace", border: `1px solid ${CARD_BORDER}` }}>
-              {col}
-            </span>
-          ))}
-        </div>
-      </div>
+    
+    
 
       <div style={styles.card}>
         <SectionHeader kicker="Upload" title="Upload New Dataset" subtitle="CSV file from Bengaluru Traffic Police" />
