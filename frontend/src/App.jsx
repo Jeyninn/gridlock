@@ -1231,10 +1231,10 @@ export default function App() {
               color: NAV_TEXT, letterSpacing: "-0.02em",
             }}
           >
-            ParkInsight
+            LaneWatch
           </h1>
           <span style={{ color: "#a0b4c8", fontSize: 15 }}>
-            Bengaluru Traffic Police — Congestion Analytics
+            Bengaluru Traffic Police
           </span>
         </div>
         {analytics && !loading && (
