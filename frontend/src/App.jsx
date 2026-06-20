@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import JSZip from "jszip";
 import {
   BarChart,
   Bar,
@@ -890,6 +891,7 @@ function RetrainPage({ onRetrainSuccess }) {
   const [file, setFile] = useState(null);
   const [status, setStatus] = useState("idle");
   const [log, setLog] = useState([]);
+  const [downloadLinks, setDownloadLinks] = useState([]);
   const [dragOver, setDragOver] = useState(false);
   const inputRef = useRef(null);
 
@@ -907,14 +909,19 @@ function RetrainPage({ onRetrainSuccess }) {
 
   const handleUpload = async () => {
     if (!file) return;
+
+    setDownloadLinks((prev) => {
+      prev.forEach((item) => URL.revokeObjectURL(item.url));
+      return [];
+    });
     setStatus("uploading");
 
     const steps = [
       "Uploading dataset to server...",
       "File uploaded successfully.",
-      "Preprocessing new violation records...",
-      "Retraining clustering model...",
-      "Updating priority scores...",
+      "Downloading ZIP archive...",
+      "Extracting output files...",
+      "Preparing downloadable results...",
     ];
     setLog([steps[0]]);
 
@@ -922,17 +929,34 @@ function RetrainPage({ onRetrainSuccess }) {
       const formData = new FormData();
       formData.append("file", file);
 
-      const res = await fetch("http://localhost:8000/api/retrain", {
+      const res = await fetch("https://traffic-congestion-ml-api.onrender.com/retrain", {
         method: "POST",
         body: formData,
       });
 
       if (!res.ok) throw new Error(`Server returned ${res.status}`);
-      const data = await res.json();
-      const records = data.new_records ?? "new";
-      const clusters = data.cluster_count ?? "—";
 
-      setLog([...steps, `Done — model retrained with ${records} records.`, `New cluster count: ${clusters}`]);
+      const blob = await res.blob();
+      const zip = await JSZip.loadAsync(blob);
+      const extractedFiles = await Promise.all(
+        Object.keys(zip.files)
+          .filter((name) => !zip.files[name].dir)
+          .map(async (name) => {
+            const zipFile = zip.files[name];
+            const fileBlob = await zipFile.async("blob");
+            return {
+              name,
+              url: URL.createObjectURL(fileBlob),
+            };
+          })
+      );
+
+      setDownloadLinks(extractedFiles);
+      setLog([
+        ...steps,
+        `ZIP archive extracted successfully.`,
+        `Ready to download ${extractedFiles.length} file${extractedFiles.length === 1 ? "" : "s"}.`,
+      ]);
       setStatus("success");
 
       if (onRetrainSuccess) {
@@ -943,13 +967,17 @@ function RetrainPage({ onRetrainSuccess }) {
     } catch (err) {
       setLog([
         ...steps,
-        `❌ Error: could not connect to backend (${err.message}). Make sure the FastAPI server is running at http://localhost:8000`,
+        `❌ Error: could not connect to backend (${err.message}). The backend is hosted on Render, so the first request may take 50+ seconds due to cold starts.`,
       ]);
       setStatus("error");
     }
   };
 
   const reset = () => {
+    setDownloadLinks((prev) => {
+      prev.forEach((item) => URL.revokeObjectURL(item.url));
+      return [];
+    });
     setFile(null);
     setStatus("idle");
     setLog([]);
@@ -1051,12 +1079,35 @@ function RetrainPage({ onRetrainSuccess }) {
         </div>
       </div>
 
+      {downloadLinks.length > 0 && (
+        <div style={{ ...styles.card, background: "#faf9f6" }}>
+          <p style={{ ...styles.label, marginBottom: 12 }}>Download Outputs</p>
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            {downloadLinks.map((item) => (
+              <a
+                key={item.name}
+                href={item.url}
+                download={item.name}
+                style={{
+                  color: PRIMARY,
+                  fontWeight: 600,
+                  textDecoration: "none",
+                  fontSize: 14,
+                }}
+              >
+                {item.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
       {log.length > 0 && (
         <div style={{ background: "#faf9f6", border: `1px solid ${status === "success" ? SUCCESS : status === "error" ? TIER_COLORS.HIGH : CARD_BORDER}`, borderRadius: 8, padding: 24 }}>
           <p style={{ ...styles.label, marginBottom: 14 }}>Retrain Log</p>
           <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             {log.map((line, i) => (
-              <p key={i} style={{ ...styles.mono, color: line.startsWith("❌") ? TIER_COLORS.HIGH : line.startsWith("Done") || line.startsWith("New cluster") || line.startsWith("✅") ? SUCCESS : TEXT_BODY, margin: 0 }}>
+              <p key={i} style={{ ...styles.mono, color: line.startsWith("❌") ? TIER_COLORS.HIGH : line.startsWith("ZIP") || line.startsWith("Ready") || line.startsWith("✅") ? SUCCESS : TEXT_BODY, margin: 0 }}>
                 {line}
               </p>
             ))}
